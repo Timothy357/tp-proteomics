@@ -171,34 +171,42 @@ df = pandas.read_csv()
 
 Quel est le type de l'objet `df`?
 ```
-
+pandas.core.frame.DataFrame
 ```
 
 ##### Descriptions d'une table de données
 Que permettent les méthodes suivantes?
 ###### df.shape
 ```
+retourne la dimension de l'objet df 
 ```
 ###### df.head()
 ```
+retourne le début du fichier associé de l'objet df
 ```
 ###### df.tail()
 ```
+retourne la fin du fichier associé de l'objet df
 ```
 ###### df.columns
 ```
+retourne le nom des colonnes du df 
 ```
 ###### df.dtypes
 ```
+retourne le type de données de chaque colonne
 ```
 ###### df.info
 ```
+affiche un résumé de l'ensemble des données avec info sur les colonnes, les types de données, la mémoire utilisée et les valeurs non nulles.
 ```
 ###### df.describe()
 ```
+retourne un résumé statistique des colonnes numériques (moy, ecart-type)
 ```
 ###### df.dropna()
 ```
+supprimer les lignes contenant des valeurs manquantes
 ```
 
 ##### Accès aux éléments d'une table de données
@@ -208,6 +216,7 @@ values = df[['Description', 'Gene Symbol']]
 ```
 
 Quel est le type de `values` ?
+pandas.core.frame.DataFrame
 
 Verifiez si certaines méthodes de `DataFrame` lui sont applicables.
 Ce type supporte l'accès par indice et les slice `[a:b]`
@@ -218,17 +227,19 @@ On peut accéder aux valeurs du DataFrame via des indices ou plages d'indice. La
 Il y a différentes manières de le faire, l'utilisation de `.iloc[slice_ligne,slice_colonne]` constitue une des solutions les plus simples. N'oublions pas que shape permet d'obtenir les dimensions (lignes et colonnes) du DataFrame.
 ###### Acceder aux cinq premières lignes de toutes les colonnes
 ```python
-
+values[0:5]
 ```
 
 ###### Acceder à toutes les lignes de la dernière colonne
 ```python
 
+values.iloc[:,-1]
+
 ```
 
 ###### Acceder aux cinq premières lignes des colonnes 0, 2 et 3
 ```python
-
+df2.iloc[:5,[0,2,3]]
 ```
 
 ##### Conversion de type
@@ -280,12 +291,12 @@ df.loc[ df['Gene Symbol'].isin(['fadR', 'arcA'] ) ]
 
 ##### 3. A partir de cette échantillon de ratio d'abondance,  estimez la moyenne $\mu$ et l'ecart-type $\sigma$ d'une loi normale.
 ```
-
+(-0.63862621564433, 0.47062451611275274)
 
 ```
 
 ##### 4. Superposez la densité de probabilité de cette loi sur l'histogramme. Attention, la densité de probabilité devra être mis à l'echelle de l'histogramme (cf ci-dessous)
-
+![plot](hist.png)
 
 ```python
 # _ est le vecteur des valeurs d'abondance
@@ -302,7 +313,7 @@ ax.plot(x, norm.pdf(x, mu, sigma)*scale) # compute theoritical PDF and draw it
 ##### 5. Quelles remarques peut-on faire à l'observation de l'histogramme et de la loi théorique?
 
 ```
-
+le modèle ne suit pas cette loi 
 
 ```
 
@@ -327,7 +338,29 @@ Nous allons implementer une approche ORA (Over Representation Analysis) naive.
 Quelles sont leurs identifiants UNIPROT ?
 ``` 
 
-
+['P23721',
+ 'P77804',
+ 'P0A6K6',
+ 'P0A799',
+ 'P0A7G6',
+ 'P0A6F3',
+ 'P25745',
+ 'P0A6M8',
+ 'P0A6L0',
+ 'P0A8V6',
+ 'P0A9Q1',
+ 'P02358',
+ 'P0ACF8',
+ 'P62399',
+ 'P0A905',
+ 'P76506',
+ 'P13036',
+ 'P10384',
+ 'P06971',
+ 'P0A910',
+ 'P06996',
+ 'P76344',
+ 'P02931']
 
 ```
 
