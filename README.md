@@ -439,133 +439,261 @@ Completer le tableau ci-dessous avec les quantités vous semblant adéquates pou
 A l'aide du contenu de `data/EColiK12_GOcounts.json` parametrez la loi hypergeometrique et calculez la pvalue de chaque terme GO portés par les protéines surabondantes. Vous reporterez ces données dans le tableau ci-dessous
 
 | identifiant GO | définition | occurence | pvalue|
+
 | GO:0005737 | C:cytoplasm | 3 | 1.2559613454414923e-07|
+
 | GO:0005829 | C:cytosol | 13 | 3.214612882512603e-32|
+
 | GO:0004648 | F:O-phospho-L-serine:2-oxoglutarate aminotransferase activity | 1 | 0.005237986791163744|
+
 | GO:0030170 | F:pyridoxal phosphate binding | 1 | 0.005237986791163744|
+
 | GO:0006564 | P:L-serine biosynthetic process | 1 | 0.005237986791163744|
+
 | GO:0006563 | P:L-serine metabolic process | 1 | 0.005237986791163744|
+
 | GO:0033359 | P:lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate | 1 | 0.005237986791163744|
+
 | GO:0042823 | P:pyridoxal phosphate biosynthetic process | 1 | 0.005237986791163744|
+
 | GO:0008615 | P:pyridoxine biosynthetic process | 1 | 0.005237986791163744|
+
 | GO:0005886 | C:plasma membrane | 1 | 0.005237986791163744|
+
 | GO:0042802 | F:identical protein binding | 6 | 1.017488465025204e-14|
+
 | GO:0000287 | F:magnesium ion binding | 1 | 0.005237986791163744|
+
 | GO:0030145 | F:manganese ion binding | 1 | 0.005237986791163744|
+
 | GO:0008973 | F:phosphopentomutase activity | 1 | 0.005237986791163744|
+
 | GO:0006015 | P:5-phosphoribose 1-diphosphate biosynthetic process | 1 | 0.005237986791163744|
+
 | GO:0043094 | P:cellular metabolic compound salvage | 1 | 0.005237986791163744|
+
 | GO:0006974 | P:cellular response to DNA damage stimulus | 6 | 1.017488465025204e-14|
+
 | GO:0009264 | P:deoxyribonucleotide catabolic process | 2 | 2.624959211972719e-05|
+
 | GO:0043531 | F:ADP binding | 1 | 0.005237986791163744|
+
 | GO:0005524 | F:ATP binding | 4 | 5.72452755442795e-10|
+
 | GO:0004618 | F:phosphoglycerate kinase activity | 1 | 0.005237986791163744|
+
 | GO:0006094 | P:gluconeogenesis | 1 | 0.005237986791163744|
+
 | GO:0006096 | P:glycolytic process | 1 | 0.005237986791163744|
+
 | GO:1903862 | P:positive regulation of oxidative phosphorylation | 1 | 0.005237986791163744|
+
 | GO:0003684 | F:damaged DNA binding | 1 | 0.005237986791163744|
+
 | GO:0008094 | F:DNA-dependent ATPase activity | 1 | 0.005237986791163744|
+
 | GO:0003697 | F:single-stranded DNA binding | 1 | 0.005237986791163744|
+
 | GO:0048870 | P:cell motility | 1 | 0.005237986791163744|
+
 | GO:0006310 | P:DNA recombination | 1 | 0.005237986791163744|
+
 | GO:0006281 | P:DNA repair | 1 | 0.005237986791163744|
+
 | GO:0010212 | P:response to ionizing radiation | 1 | 0.005237986791163744|
+
 | GO:0009314 | P:response to radiation | 1 | 0.005237986791163744|
+
 | GO:0009432 | P:SOS response | 1 | 0.005237986791163744|
+
 | GO:0004370 | F:glycerol kinase activity | 1 | 0.005237986791163744|
+
 | GO:0046872 | F:metal ion binding | 3 | 1.2559613454414923e-07|
+
 | GO:0008270 | F:zinc ion binding | 2 | 2.624959211972719e-05|
+
 | GO:0019563 | P:glycerol catabolic process | 1 | 0.005237986791163744|
+
 | GO:0006071 | P:glycerol metabolic process | 1 | 0.005237986791163744|
+
 | GO:0006072 | P:glycerol-3-phosphate metabolic process | 1 | 0.005237986791163744|
+
 | GO:0016310 | P:phosphorylation | 1 | 0.005237986791163744|
+
 | GO:0016783 | F:sulfurtransferase activity | 1 | 0.005237986791163744|
+
 | GO:0000049 | F:tRNA binding | 2 | 2.624959211972719e-05|
+
 | GO:0002143 | P:tRNA wobble position uridine thiolation | 1 | 0.005237986791163744|
+
 | GO:0005525 | F:GTP binding | 1 | 0.005237986791163744|
+
 | GO:0003924 | F:GTPase activity | 1 | 0.005237986791163744|
+
 | GO:0003746 | F:translation elongation factor activity | 1 | 0.005237986791163744|
+
 | GO:0032790 | P:ribosome disassembly | 1 | 0.005237986791163744|
+
 | GO:0016020 | C:membrane | 3 | 1.2559613454414923e-07|
+
 | GO:0004139 | F:deoxyribose-phosphate aldolase activity | 1 | 0.005237986791163744|
+
 | GO:0016829 | F:lyase activity | 1 | 0.005237986791163744|
+
 | GO:0016052 | P:carbohydrate catabolic process | 1 | 0.005237986791163744|
+
 | GO:0046386 | P:deoxyribose phosphate catabolic process | 1 | 0.005237986791163744|
+
 | GO:0015949 | P:nucleobase-containing small molecule interconversion | 1 | 0.005237986791163744|
+
 | GO:0003677 | F:DNA binding | 2 | 2.624959211972719e-05|
+
 | GO:0003700 | F:DNA-binding transcription factor activity | 2 | 2.624959211972719e-05|
+
 | GO:0000062 | F:fatty-acyl-CoA binding | 1 | 0.005237986791163744|
+
 | GO:0019395 | P:fatty acid oxidation | 1 | 0.005237986791163744|
+
 | GO:0045892 | P:negative regulation of transcription, DNA-templated | 3 | 1.2559613454414923e-07|
+
 | GO:0045723 | P:positive regulation of fatty acid biosynthetic process | 1 | 0.005237986791163744|
+
 | GO:0045893 | P:positive regulation of transcription, DNA-templated | 2 | 2.624959211972719e-05|
+
 | GO:0019217 | P:regulation of fatty acid metabolic process | 1 | 0.005237986791163744|
+
 | GO:0032993 | C:protein-DNA complex | 2 | 2.624959211972719e-05|
+
 | GO:0001216 | F:DNA-binding transcription activator activity | 1 | 0.005237986791163744|
+
 | GO:0001217 | F:DNA-binding transcription repressor activity | 2 | 2.624959211972719e-05|
+
 | GO:0000156 | F:phosphorelay response regulator activity | 1 | 0.005237986791163744|
+
 | GO:0000976 | F:transcription regulatory region sequence-specific DNA binding | 2 | 2.624959211972719e-05|
+
 | GO:0000160 | P:phosphorelay signal transduction system | 1 | 0.005237986791163744|
+
 | GO:0006355 | P:regulation of transcription, DNA-templated | 1 | 0.005237986791163744|
+
 | GO:0022627 | C:cytosolic small ribosomal subunit | 1 | 0.005237986791163744|
+
 | GO:0048027 | F:mRNA 5'-UTR binding | 1 | 0.005237986791163744|
+
 | GO:0070181 | F:small ribosomal subunit rRNA binding | 1 | 0.005237986791163744|
+
 | GO:0003735 | F:structural constituent of ribosome | 2 | 2.624959211972719e-05|
+
 | GO:0006412 | P:translation | 2 | 2.624959211972719e-05|
+
 | GO:0009295 | C:nucleoid | 1 | 0.005237986791163744|
+
 | GO:0003680 | F:AT DNA binding | 1 | 0.005237986791163744|
+
 | GO:0003681 | F:bent DNA binding | 1 | 0.005237986791163744|
+
 | GO:0046983 | F:protein dimerization activity | 1 | 0.005237986791163744|
+
 | GO:0003723 | F:RNA binding | 2 | 2.624959211972719e-05|
+
 | GO:0016458 | P:gene silencing | 1 | 0.005237986791163744|
+
 | GO:1900232 | P:negative regulation of single-species biofilm formation on inanimate substrate | 1 | 0.005237986791163744|
+
 | GO:0006417 | P:regulation of translation | 1 | 0.005237986791163744|
+
 | GO:0022625 | C:cytosolic large ribosomal subunit | 1 | 0.005237986791163744|
+
 | GO:0008097 | F:5S rRNA binding | 1 | 0.005237986791163744|
+
 | GO:0000027 | P:ribosomal large subunit assembly | 1 | 0.005237986791163744|
+
 | GO:0009279 | C:cell outer membrane | 8 | 1.4396544212127004e-19|
+
 | GO:0120010 | P:intermembrane phospholipid transfer | 1 | 0.005237986791163744|
+
 | GO:0016021 | C:integral component of membrane | 5 | 2.4792802264447473e-12|
+
 | GO:0015091 | F:ferric iron transmembrane transporter activity | 1 | 0.005237986791163744|
+
 | GO:0015344 | F:siderophore uptake transmembrane transporter activity | 2 | 2.624959211972719e-05|
+
 | GO:0038023 | F:signaling receptor activity | 2 | 2.624959211972719e-05|
+
 | GO:0055072 | P:iron ion homeostasis | 2 | 2.624959211972719e-05|
+
 | GO:0006826 | P:iron ion transport | 1 | 0.005237986791163744|
+
 | GO:0022834 | F:ligand-gated channel activity | 1 | 0.005237986791163744|
+
 | GO:0015483 | F:long-chain fatty acid transporting porin activity | 1 | 0.005237986791163744|
+
 | GO:0048037 | F:cofactor binding | 1 | 0.005237986791163744|
+
 | GO:0005506 | F:iron ion binding | 1 | 0.005237986791163744|
+
 | GO:0019904 | F:protein domain specific binding | 1 | 0.005237986791163744|
+
 | GO:0015643 | F:toxic substance binding | 1 | 0.005237986791163744|
+
 | GO:0046790 | F:virion binding | 1 | 0.005237986791163744|
+
 | GO:0019867 | C:outer membrane | 1 | 0.005237986791163744|
+
 | GO:0046930 | C:pore complex | 3 | 1.2559613454414923e-07|
+
 | GO:0015288 | F:porin activity | 3 | 1.2559613454414923e-07|
+
 | GO:0000746 | P:conjugation | 1 | 0.005237986791163744|
+
 | GO:0009597 | P:detection of virus | 1 | 0.005237986791163744|
+
 | GO:0034220 | P:ion transmembrane transport | 3 | 1.2559613454414923e-07|
+
 | GO:0006811 | P:ion transport | 1 | 0.005237986791163744|
+
 | GO:0046718 | P:viral entry into host cell | 1 | 0.005237986791163744|
+
 | GO:0045203 | C:integral component of cell outer membrane | 1 | 0.005237986791163744|
+
 | GO:0001618 | F:virus receptor activity | 1 | 0.005237986791163744|
+
 | GO:0015914 | P:phospholipid transport | 1 | 0.005237986791163744|
+
 | GO:0046813 | P:receptor-mediated virion attachment to host cell | 1 | 0.005237986791163744|
+
 | GO:0030288 | C:outer membrane-bounded periplasmic space | 1 | 0.005237986791163744|
+
 | GO:0046870 | F:cadmium ion binding | 1 | 0.005237986791163744|
+
 | GO:0071276 | P:cellular response to cadmium ion | 1 | 0.005237986791163744|
+
 | GO:0070301 | P:cellular response to hydrogen peroxide | 1 | 0.005237986791163744|
+
 | GO:0034224 | P:cellular response to zinc ion starvation | 1 | 0.005237986791163744|
+
 | GO:0006882 | P:cellular zinc ion homeostasis | 1 | 0.005237986791163744|
+
 | GO:0034702 | C:ion channel complex | 1 | 0.005237986791163744|
+
 | GO:0042912 | F:colicin transmembrane transporter activity | 1 | 0.005237986791163744|
+
 | GO:0097718 | F:disordered domain specific binding | 1 | 0.005237986791163744|
+
 | GO:0005216 | F:ion channel activity | 1 | 0.005237986791163744|
+
 | GO:0015075 | F:ion transmembrane transporter activity | 1 | 0.005237986791163744|
+
 | GO:0008289 | F:lipid binding | 1 | 0.005237986791163744|
+
 | GO:0001530 | F:lipopolysaccharide binding | 1 | 0.005237986791163744|
+
 | GO:0047485 | F:protein N-terminus binding | 1 | 0.005237986791163744|
+
 | GO:0042910 | F:xenobiotic transmembrane transporter activity | 1 | 0.005237986791163744|
+
 | GO:0006855 | P:drug transmembrane transport | 1 | 0.005237986791163744|
+
 | GO:0070207 | P:protein homotrimerization | 1 | 0.005237986791163744|
 
 
